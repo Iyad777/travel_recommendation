@@ -3,36 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TravelBloom</title>
+  <title>TravelBloom - Home</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
 <body>
 
+  <!-- Navbar -->
   <nav class="navbar">
-  <div class="logo">🌍 TravelBloom</div>
-  <a href="travel_recommendation.html">Home</a>
-  <a href="about.html">About Us</a>
-  <a href="contact.html">Contact Us</a>
+    <div class="logo">TravelBloom</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search...">
+      <button onclick="searchPlaces()">Search</button>
+      <button onclick="clearResults()">Clear</button>
+    </div>
+  </nav>
 
-  <input type="text" id="searchInput" placeholder="Search (e.g. beach, temple, country)">
-  <button onclick="search()">Search</button>
-  <button onclick="clearResults()">Reset</button>
-</nav>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Discover Your Next Adventure</h1>
+      <p>Find the best beaches, temples, and countries to explore with TravelBloom!</p>
+    </div>
+  </section>
 
-<div id="results"></div>
+  <!-- Recommendation Results -->
+  <section class="recommendations" id="results">
+    <!-- JS will inject results here -->
+  </section>
 
-<section class="home">
-  <h1>Welcome to TravelBloom</h1>
-  <p>Discover amazing destinations — from sunny beaches to peaceful temples and vibrant countries!</p>
-
-  <div class="socials">
-    <a href="#">🌐 Facebook</a>
-    <a href="#">📸 Instagram</a>
-    <a href="#">🐦 Twitter</a>
-  </div>
-</section>
-
-
+  <!-- Social Links -->
+  <footer>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p>&copy; 2025 TravelBloom. All Rights Reserved.</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
