@@ -2,79 +2,45 @@
   "countries": [
     {
       "id": 1,
-      "name": "Australia",
-      "cities": [
-        {
-          "name": "Sydney, Australia",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sydney_Opera_House_-_Dec_2008.jpg",
-          "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
-        },
-        {
-          "name": "Melbourne, Australia",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Melbourne_skyline_from_Eastbank.jpg",
-          "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
-        }
-      ]
+      "name": "Japan",
+      "imageUrl": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Japan is an island country in East Asia, known for its dense cities, imperial palaces, mountainous national parks, and thousands of shrines and temples. It's a land of rich culture, history, and stunning natural beauty.",
+      "timeZone": "Asia/Tokyo"
     },
     {
       "id": 2,
-      "name": "Japan",
-      "cities": [
-        {
-          "name": "Tokyo, Japan",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Tokyo_Tower_and_around_Skyscrapers.jpg",
-          "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
-        },
-        {
-          "name": "Kyoto, Japan",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Kiyomizu-dera_in_Kyoto_01.jpg",
-          "description": "Known for its historic temples, gardens, and traditional tea houses."
-        }
-      ]
-    },
-    {
-      "id": 3,
       "name": "Brazil",
-      "cities": [
-        {
-          "name": "Rio de Janeiro, Brazil",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/RiodeJaneiro_Corcovado.jpg",
-          "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
-        },
-        {
-          "name": "São Paulo, Brazil",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Sao_Paulo_skyline.jpg",
-          "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
-        }
-      ]
+      "imageUrl": "https://images.unsplash.com/photo-1483729558449-35ef7d2e84ea?q=80&w=1998&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Brazil is a vast South American country, famous for its vibrant carnivals, iconic Christ the Redeemer statue, and the sprawling Amazon rainforest. It boasts beautiful beaches and a lively, diverse culture.",
+      "timeZone": "America/Sao_Paulo"
     }
   ],
   "temples": [
     {
       "id": 1,
-      "name": "Angkor Wat, Cambodia",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Angkor_Wat_temple.jpg",
-      "description": "A UNESCO World Heritage site and the largest religious monument in the world."
+      "name": "Angkor Wat",
+      "imageUrl": "https://images.unsplash.com/photo-1526481280693-3bfa7568e0f3?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Angkor Wat is a massive temple complex in Cambodia, the largest religious monument in the world. Originally constructed as a Hindu temple, it was gradually transformed into a Buddhist temple toward the end of the 12th century."
     },
     {
       "id": 2,
-      "name": "Taj Mahal, India",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Taj-Mahal.jpg",
-      "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
+      "name": "Kinkaku-ji (Golden Pavilion)",
+      "imageUrl": "https://images.unsplash.com/photo-1536412513470-49b9c54e701f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Kinkaku-ji, officially named Rokuon-ji, is a Zen Buddhist temple in Kyoto, Japan. Its top two floors are completely covered in gold leaf, making it one of the most iconic and picturesque sights in the country."
     }
   ],
   "beaches": [
     {
       "id": 1,
-      "name": "Bora Bora, French Polynesia",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Bora_Bora_-_French_Polynesia.jpg",
-      "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
+      "name": "Bora Bora",
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Bora Bora is a small South Pacific island northwest of Tahiti in French Polynesia. Surrounded by a turquoise lagoon protected by a coral reef, it's renowned for its scuba diving and overwater bungalows."
     },
     {
       "id": 2,
-      "name": "Copacabana Beach, Brazil",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Copacabana_Beach_in_Rio_de_Janeiro.jpg",
-      "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
+      "name": "Maldives",
+      "imageUrl": "https://images.unsplash.com/photo-1514282401047-d79a71a590b8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "The Maldives is a tropical nation in the Indian Ocean composed of 26 ring-shaped atolls, which are made up of more than 1,000 coral islands. It's known for its beaches, blue lagoons, and extensive reefs."
     }
   ]
 }
